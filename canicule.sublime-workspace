@@ -1,0 +1,1236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"selec",
+				"selectionLag\tfloat"
+			],
+			[
+				"game",
+				"GameController"
+			],
+			[
+				"nmes",
+				"names\tstring[]"
+			],
+			[
+				"gamep",
+				"gamepad\tbool"
+			],
+			[
+				"pla",
+				"playerStateImage\tImage"
+			],
+			[
+				"Ex",
+				"ExecuteInEditMode\tExecuteInEditMode"
+			],
+			[
+				"Wait",
+				"WaitForSeconds\tWaitForSeconds"
+			],
+			[
+				"GetCompon",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"current",
+				"currentDistanceToPlanet\tfloat"
+			],
+			[
+				"GetCom",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"Gravity",
+				"GravityBody\tGravityBody"
+			],
+			[
+				"move",
+				"moveAmount\tVector3"
+			],
+			[
+				"VEctor",
+				"Vector3(float x, float y)\tVector3(float x, float y)"
+			],
+			[
+				"L",
+				"LoadScene(int sceneBuildIndex)\tvoid"
+			],
+			[
+				"ac",
+				"GetActiveScene()\tScene"
+			],
+			[
+				"Sc",
+				"SceneManagement\tSceneManagement"
+			],
+			[
+				"Cla",
+				"Clamp(int value, int min, int max)\tint"
+			],
+			[
+				"Get",
+				"GetAxisRaw(string axisName)\tfloat"
+			],
+			[
+				"Game",
+				"GameController\tGameController"
+			],
+			[
+				"GetC",
+				"GetComponentsInChildren<T>()\tT[]"
+			],
+			[
+				"AddForce",
+				"AddForce(Vector3 force, ForceMode mode)\tvoid"
+			],
+			[
+				"ne",
+				"newRotation\tQuaternion"
+			],
+			[
+				"Find",
+				"FindObjectsOfType<T>()\tT[]"
+			],
+			[
+				"GetButton",
+				"GetButtonDown(string buttonName)\tbool"
+			],
+			[
+				"de",
+				"default\tdefault"
+			],
+			[
+				"player",
+				"playerState\tImage"
+			],
+			[
+				"for",
+				"foreach\tforeach"
+			],
+			[
+				"child",
+				"GetComponentsInChildren<T>()\tT[]"
+			],
+			[
+				"tra",
+				"transform\tTransform { get; }"
+			],
+			[
+				"Vectr",
+				"Vector3\tVector3"
+			],
+			[
+				"target",
+				"targetDirection\tVector3"
+			],
+			[
+				"is",
+				"isInTheZone\tbool"
+			],
+			[
+				"Ra",
+				"Raycast(Ray ray, float maxDistance)\tbool"
+			],
+			[
+				"find",
+				"FindChild(string n)\tTransform"
+			],
+			[
+				"particle",
+				"particleSystem\tComponent { get; }"
+			],
+			[
+				"shoot",
+				"shootRotation\tVector3"
+			],
+			[
+				"force",
+				"forceRotation\tfloat"
+			],
+			[
+				"Add",
+				"AddTorque(Vector3 torque)\tvoid"
+			],
+			[
+				"orbit",
+				"orbitActive\tbool"
+			],
+			[
+				"grav",
+				"gravityAttractorTransform\tTransform"
+			],
+			[
+				"thisBody",
+				"thisBodyRB\tRigidbody"
+			],
+			[
+				"angl",
+				"AngleAxis(float angle, Vector3 axis)\tQuaternion"
+			],
+			[
+				"An",
+				"AngleAxis(float angle, Vector3 axis)\tQuaternion"
+			],
+			[
+				"Vector3",
+				"Vector3(float x, float y, float z)\tVector3(float x, float y, float z)"
+			],
+			[
+				"VEc",
+				"Vector3()\tVector3()"
+			],
+			[
+				"orbitA",
+				"orbitAxis\tVector3"
+			],
+			[
+				"Vector",
+				"Vector3\tVector3"
+			],
+			[
+				"position",
+				"position3D\tVector3"
+			],
+			[
+				"orbi",
+				"orbitPos\tVector2"
+			],
+			[
+				"Line",
+				"LineRenderer\tLineRenderer"
+			],
+			[
+				"rot",
+				"Rotate(Vector3 axis, float angle)\tvoid"
+			],
+			[
+				"DrawRay",
+				"DrawRay(Vector3 start, Vector3 dir, Color color, float duration)\tvoid"
+			],
+			[
+				"Draw",
+				"DrawRay(Vector3 start, Vector3 dir)\tvoid"
+			],
+			[
+				"Collider",
+				"BoxCollider\tBoxCollider"
+			],
+			[
+				"local",
+				"localScale\tVector3 { get; set; }"
+			],
+			[
+				"Gravi",
+				"GravityBody\tGravityBody"
+			],
+			[
+				"Fi",
+				"fixedDeltaTime\tfloat { get; set; }"
+			],
+			[
+				"gr",
+				"grounded\tbool"
+			],
+			[
+				"Tra",
+				"Translate(Vector3 translation)\tvoid"
+			],
+			[
+				"S",
+				"Scale(Vector3 a, Vector3 b)\tVector3"
+			],
+			[
+				"Rigidb",
+				"Rigidbody\tRigidbody"
+			],
+			[
+				"sc",
+				"localScale\tVector3 { get; set; }"
+			],
+			[
+				"shortest",
+				"shortestIndex\tint"
+			],
+			[
+				"M",
+				"Max(float a, float b)\tfloat"
+			],
+			[
+				"short",
+				"shortestDistance\tfloat"
+			],
+			[
+				"new",
+				"newPlanet\tGameObject"
+			],
+			[
+				"planet",
+				"planetAttractedTo\tGameObject"
+			],
+			[
+				"grounded",
+				"groundedMask\tLayerMask"
+			],
+			[
+				"get",
+				"GetButtonDown(string buttonName)\tbool"
+			],
+			[
+				"fix",
+				"fixedDeltaTime\tfloat { get; set; }"
+			],
+			[
+				"GetAx",
+				"GetAxisRaw(string axisName)\tfloat"
+			],
+			[
+				"mouseSen",
+				"mouseSensitivityY\tfloat"
+			],
+			[
+				"Vec",
+				"Vector3\tVector3"
+			],
+			[
+				"Rigid",
+				"Rigidbody\tRigidbody"
+			],
+			[
+				"fre",
+				"FreezeRotation\tRigidbodyConstraints"
+			],
+			[
+				"FindG",
+				"FindGameObjectWithTag(string tag)\tGameObject"
+			],
+			[
+				"scr",
+				"scroll_position"
+			],
+			[
+				"For",
+				"ForceMode2D\tForceMode2D"
+			],
+			[
+				"AddFo",
+				"AddForce(Vector2 force, ForceMode2D mode)\tvoid"
+			],
+			[
+				"GetMou",
+				"GetMouseButton(int button)\tbool"
+			],
+			[
+				"Co",
+				"color\tColor { get; set; }"
+			],
+			[
+				"Cursor",
+				"CursorMode\tCursorMode"
+			],
+			[
+				"Curs",
+				"CursorMode\tCursorMode"
+			],
+			[
+				"TExture",
+				"Texture2D\tTexture2D"
+			],
+			[
+				"Lerp",
+				"Slerp(Vector3 a, Vector3 b, float t)\tVector3"
+			],
+			[
+				"Clamp",
+				"Clamp(float value, float min, float max)\tfloat"
+			],
+			[
+				"newR",
+				"newRotation\tVector3"
+			],
+			[
+				"newRota",
+				"newRotationY\tfloat"
+			],
+			[
+				"playe",
+				"playerCamera\tGameObject"
+			],
+			[
+				"main",
+				"mainTexture\tTexture { get; set; }"
+			],
+			[
+				"portal",
+				"portalMaterial\tMaterial"
+			],
+			[
+				"Clo",
+				"ClosestPoint\tVector3"
+			],
+			[
+				"Force",
+				"ForceMode\tForceMode"
+			],
+			[
+				"Trans",
+				"TransformDirection(Vector3 direction)\tVector3"
+			],
+			[
+				"Rayca",
+				"Raycast(Vector3 origin, Vector3 direction)\tbool"
+			],
+			[
+				"Ray",
+				"RaycastHit\tRaycastHit"
+			],
+			[
+				"Charac",
+				"CharacterUpdate()\tvoid"
+			],
+			[
+				"Ene",
+				"EnemyShootBehaviour\tEnemyShootBehaviour"
+			],
+			[
+				"Range",
+				"Range(int min, int max)\tint"
+			],
+			[
+				"Play",
+				"PlayerController\tPlayerController"
+			],
+			[
+				"FOr",
+				"ForceMode2D\tForceMode2D"
+			],
+			[
+				"add",
+				"AddForce(Vector2 force)\tvoid"
+			],
+			[
+				"c",
+				"color\tColor { get; set; }"
+			],
+			[
+				"P",
+				"Play()\tvoid"
+			],
+			[
+				"audio",
+				"audioSource\tAudioSource"
+			],
+			[
+				"boss",
+				"bossObject\tGameObject"
+			],
+			[
+				"RigidbodyC",
+				"RigidbodyConstraints2D\tRigidbodyConstraints2D"
+			],
+			[
+				"SCENE",
+				"sceneCountInBuildSettings\tint { get; }"
+			],
+			[
+				"OverlapBox",
+				"OverlapBoxAll(Vector2 point, Vector2 size, float angle)\tCollider2D[]"
+			],
+			[
+				"C",
+				"Count\tint { get; }"
+			],
+			[
+				"GuiTe",
+				"GUIText\tGUIText"
+			],
+			[
+				"Gui",
+				"guiText\tComponent { get; }"
+			],
+			[
+				"VEctr",
+				"Vector3\tVector3"
+			],
+			[
+				"bur",
+				"SetBurst(int index, Burst burst)\tvoid"
+			],
+			[
+				"isp",
+				"isPlaying\tbool { get; }"
+			],
+			[
+				"Partic",
+				"ParticleSystem\tParticleSystem"
+			],
+			[
+				"rand",
+				"randomY\tint"
+			],
+			[
+				"IEn",
+				"IEnumerator\tIEnumerator"
+			],
+			[
+				"cha",
+				"changeScrollDirection\tIEnumerator"
+			],
+			[
+				"Mes",
+				"MeshRenderer\tMeshRenderer"
+			],
+			[
+				"Vecto",
+				"Vector3(float x, float y)\tVector3(float x, float y)"
+			],
+			[
+				"Set",
+				"SetBool(string name, bool value)\tvoid"
+			],
+			[
+				"Start",
+				"StartCoroutine(IEnumerator routine)\tCoroutine"
+			],
+			[
+				"Vect",
+				"Vector3\tVector3"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"la",
+				"IsTouchingLayers(int layerMask)\tbool"
+			],
+			[
+				"Collision",
+				"Collision2D\tCollision2D"
+			],
+			[
+				"GetKeyDo",
+				"GetKeyDown(string name)\tbool"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "canicule.sublime-project",
+			"settings":
+			{
+				"buffer_size": 108,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/testScript.cs",
+			"settings":
+			{
+				"buffer_size": 365,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/testScript.cs.meta",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "canicule.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 24643,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "canicule.sln",
+			"settings":
+			{
+				"buffer_size": 1496,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Love2D"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				],
+				[
+					"Packages/User/love-run.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Love2D"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"omnishar",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"run cart",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"run ca",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"pico",
+				"PICO-8: Browse BBS"
+			],
+			[
+				"",
+				"Build With: LuaLove"
+			],
+			[
+				"run car",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"run c",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				" run",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"4",
+				"Set Syntax: camlp4"
+			],
+			[
+				"runca",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"run",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"run carte",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"love",
+				"Build With: LuaLove"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"open ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"set syntax love",
+				"Set Syntax: Lua (Love)"
+			],
+			[
+				"love ",
+				"Build With: LuaLove"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 564.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"Set Syntax: Lua (Love)",
+			"lua",
+			"Set Synta Lua (Love)",
+			"Set Syntax Lua (Love)",
+			"Set Syntax: Lua (Love)",
+			"Set Syntax:Lua(Love)",
+			"Set Syntax:Lua (Love)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/canicule",
+		"/D/Projects/canicule/Assets",
+		"/D/Projects/canicule/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/D/Projects/canicule/Assets/Scripts/SimpleCameraController.cs",
+		"/C/Program Files (x86)/XMind/readme.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Projects/test_world_rotation/Assets/Scripts/GoForward.cs",
+		"/D/Programmes/vvvv_50beta38_x64/girlpower/readme.txt",
+		"/C/GOG Games/Morrowind/Morrowind.ini",
+		"/C/Users/Khamsou'/AppData/Local/Temp/Temp1_webfontkit-20181122-155545.zip/stylesheet.css",
+		"/D/Emulation/PC/DOOM/gzdoom - Copie/gzdoom-Khamsou.ini",
+		"/D/Emulation/PC/DOOM/gzdoom - Copie/captcha.ini",
+		"/D/Projects/horsjeu-planets/planets/Assets/Scripts/RotatingSelf.cs",
+		"/D/Projects/horsjeu-planets/planets/Assets/RotatingSelf.cs",
+		"/D/Projects/horsjeu-planets/planets/Assets/CosmoJumperBehaviour.cs",
+		"/D/Projects/horsjeu-planets/planets/Assets/Scripts/UIController.cs",
+		"/D/Projects/horsjeu-planets/planets/Assets/WanderingSpaceObject.cs",
+		"/D/Projects/horsjeu-planets/planets/Assets/Scripts/FlagBehaviour.cs",
+		"/D/Projects/horsjeu-planets/planets/Assets/Scenes/main.unity",
+		"/D/Projects/horsjeu-planets/planets/Assets/Scripts/EllipseRenderer.cs",
+		"/D/Projects/horsjeu-planets/planets/Assets/Scripts/Ellipse.cs",
+		"/D/Projects/horsjeu-planets/.gitignore",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/wp-links-opml.php",
+		"/C/Users/Khamsou'/Desktop/save_perso.css",
+		"/D/Projects/horsjeu-planets/planets/.gitignore",
+		"/D/Projects/planets/.gitignore",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/wp-login.php",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/wp-settings.php",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/custom-carousel-script.js",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/custom-image-fader.js",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/setup-config.php",
+		"/D/Projects/pera/Assets/Scripts/GameController.cs",
+		"/D/Projects/planets/Assets/Scripts/SatelliteBehaviour.cs",
+		"/D/Projects/planets/Assets/Scripts/FlagBehaviour.cs",
+		"/D/Projects/pera/Assets/Scripts/PoolController.cs",
+		"/D/Emulation/PC/Dragon Ball FighterZ/RED/Binaries/Win64/REVOLT.ini",
+		"/D/Emulation/PC/Dragon Ball FighterZ/Engine/Binaries/ThirdParty/Steamworks/Steamv141/Win64/steam_emu.ini",
+		"/D/Projects/planets/Assets/Scripts/GravityBody.cs",
+		"/D/Projects/planets/Assembly-CSharp.csproj",
+		"/C/Users/Khamsou'/Desktop/custom-image-fader.js",
+		"/C/Users/Khamsou'/Desktop/functions.php",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/custom-carousel-script 2.js",
+		"/C/Users/Khamsou'/AppData/Local/Temp/image-carousel.txt",
+		"/C/Users/Khamsou'/Desktop/custom-carousel-script.js",
+		"/C/Users/Khamsou'/AppData/Local/Temp/fz3temp-2/custom.css",
+		"/C/Users/Khamsou'/Desktop/custom.css",
+		"/C/wamp/www/prestidecap/wp-content/themes/zerif-lite/ti-about-page/class-ti-about-page.php",
+		"/C/wamp/www/prestidecap/wp-content/themes/index.php",
+		"/C/wamp/www/prestidecap/wp-login.php",
+		"/C/wamp/www/prestidecap/wp-config.php",
+		"/C/wamp/www/horsdoeuvre/wp-config.php",
+		"/D/Projets/pera/Assets/Scripts/PlayerController.cs",
+		"/D/Projects/vaporshooter/vaporshooter/Assets/Scripts/CharacterController.cs",
+		"/D/Programmes/SotC-Viewer-master/README.txt",
+		"/D/Cours/M2/Mémoire 2/Expérimentations/OOT mod/EponaNutella/Assets/Scripts/FPSCameraController.cs",
+		"/D/Projects/vaporshooter/vaporshooter/Assets/Scripts/AimAndUseController.cs",
+		"/D/Projects/vaporshooter/vaporshooter/Assets/Scripts/CursorController.cs",
+		"/D/Projects/vaporshooter/vaporshooter/Assets/Scripts/CameraController.cs",
+		"/D/Cours/M2/Mémoire 2/Expérimentations/OOT mod/EponaNutella/Assets/Scripts/CameraFollow.cs",
+		"/D/Assets/Components/NavMeshComponents-master/README.md",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/FPSCameraController.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/FPSPlayerController.cs",
+		"/D/Assets/3d models/Zelda OOT/ReadMe.txt",
+		"/D/Cours/M2/Unity/Portalus/Assets/Scripts/ShootController.cs",
+		"/D/Cours/M2/Unity/Portalus/Assets/Scripts/GunController.cs",
+		"/D/Assets/Materials/Readme.txt",
+		"/D/Cours/M2/Unity/Portalus/Assets/Scripts/BluePortalController.cs",
+		"/D/Cours/M2/Mémoire 2/Expérimentations/OOT mod/EponaNutella/Assets/Scripts/test.cs",
+		"/D/Cours/M2/Unity/Portalus/Assets/Scripts/DarkLight.cs",
+		"/D/Cours/M2/Unity/Portalus/Assets/GameOverScript.cs",
+		"/C/Users/Khamsou'/Desktop/Exercice_03_Portal/Exercice_03_Portal/Intentions_Exo_03.txt",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/FPSTargetCivil.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/FPSTarget.cs",
+		"/D/Cours/M2/Unity/Portalus/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs",
+		"/D/Cours/M2/Unity/Portalus/Portalus.sublime-project",
+		"/D/Cours/M2/Unity/Portalus/Assets/PortalController.cs",
+		"/D/Cours/M2/Unity/Portalus/Assets/Scripts/ShootScript.cs",
+		"/D/Cours/M2/Unity/Portalus/Assets/Scripts/test.cs",
+		"/D/Cours/M2/UnityPortalus/Portalus/Assets/Scripts/test.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/Scripts/MusicScript.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/Scripts/EnemyBehaviour.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/EnemyBehaviour.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/Scripts/PlatformCollider.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/CameraScript.cs",
+		"/D/Cours/M2/Unity/Tout Feu Tout Flamme/Assets/Scripts/ShootBehaviour.cs",
+		"/D/Cours/M2/Unity/Tout Feu Tout Flamme/Assets/Scripts/BulleBehaviour.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/Scripts/TeleporterScript.cs",
+		"/D/Cours/M2/Unity/Tout Feu Tout Flamme/Assets/Scripts/PlayerController.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/MusicScript.cs",
+		"/D/Cours/M2/Unity/Tout Feu Tout Flamme/Assets/ShootBehaviour.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/Scripts/AnimBackground.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/Scripts/PlayerController.cs",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/Scripts/BulleBehaviour.cs",
+		"/D/Cours/M2/Transmédia et enjeux postmodernes/Cours.txt",
+		"/C/Users/Khamsou'/AppData/Local/Temp/mondrian.p8",
+		"/D/Cours/M2/Unity/Where Is Home/Assets/TeleporterScript.cs",
+		"/D/Cours/M2/Unity/Where Is Home/readme.txt",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/FPSTargeter.cs",
+		"/D/Cours/M2/Unity/Exo_1/Assets/Scripts/BulleBehaviour.cs",
+		"/D/Assets/Textures/SNES - Earthbound Mother 2 - Battle Backgrounds/000(README).txt",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/AudioManager.cs",
+		"/D/Cours/M2/Unity/Exo_1/Assets/Scripts/BulletBehaviour.cs",
+		"/D/Cours/M2/Mémoire 2/Idées jeu/monde.txt",
+		"/D/Emulation/PC/DOOM/mods/readme.txt",
+		"/D/Cours/M2/Unity/Exo_111/Exo_1/Assets/Scripts/PlayerController.cs",
+		"/D/Cours/M2/Unity/Exo_111/Exo_1/Assets/Scripts/BulletBehaviour.cs",
+		"/D/Cours/M2/Unity/Exo_1/Assets/Scripts/test.cs",
+		"/D/Emulation/PC/DOOM/gzdoom/gzdoom-Khamsou.ini",
+		"/D/Cours/M2/Unity/Exo_1/Assets/Scripts/PlatformCollider.cs",
+		"/D/Cours/M2/Unity/Exo_1/Exo_1.sublime-project",
+		"/D/Cours/M2/GUERRE/Jam/guerre_archive/guerre.sublime-project",
+		"/D/Cours/M2/Unity/Exo 1/Exo_1/Assets/Scripts/test.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/Intro.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/CursorController.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/FPSTargetSoldier.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/ProjectileScript.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/EndingScript.cs",
+		"/D/Cours/M2/GUERRE/Jam/guerre/Assets/Vincent/Scripts/CameraShake.cs",
+		"/D/Projects/firewalkwithme/Final Ludum Dare/buck.lua",
+		"/D/Projects/firewalkwithme/Final Ludum Dare/game.lua",
+		"/D/Projects/firewalkwithme/Final Ludum Dare/menu.lua",
+		"/D/Projects/firewalkwithme/Final Ludum Dare/main.lua",
+		"/C/Users/Khamsou'/Desktop/love/sousmarin.lua",
+		"/C/Users/Khamsou'/Desktop/love/game.lua",
+		"/C/Users/Khamsou'/Desktop/love/main.lua",
+		"/D/Projects/applestore/applestore/Assets/Scripts/test.cs",
+		"/C/Users/Khamsou'/Desktop/love/main_new.lua"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "canicule.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/testScript.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Directive using non nécessaire.",
+								"211,216": "Le type 'testScript' définit déjà un membre appelé 'Start' avec les mêmes types de paramètre",
+								"233,235": "Ambiguïté entre 'testScript.rb' et 'testScript.rb'",
+								"238,250": "Impossible d'appliquer l'opérateur '<' aux opérandes de type 'groupe de méthodes' et 'Rigidbody'",
+								"26,31": "Directive using non nécessaire.",
+								"333,339": "Le type 'testScript' définit déjà un membre appelé 'Update' avec les mêmes types de paramètre",
+								"93,103": "L'espace de noms '<global namespace>' contient déjà une définition pour 'testScript'"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Scripts/testScript.cs.meta",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "canicule.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "canicule.sln",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								768,
+								768
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 167.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 271.0
+	},
+	"pinned_build_system": "Packages/Lua Love/LuaLove.sublime-build",
+	"project": "canicule.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$constructor"
+			]
+		],
+		"width": 1165.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
