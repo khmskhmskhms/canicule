@@ -523,7 +523,7 @@
 			"file": "canicule.sublime-project",
 			"settings":
 			{
-				"buffer_size": 108,
+				"buffer_size": 186,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +532,7 @@
 			"file": "Assets/Scripts/testScript.cs",
 			"settings":
 			{
-				"buffer_size": 365,
+				"buffer_size": 352,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -549,7 +549,7 @@
 			"file": "canicule.sublime-workspace",
 			"settings":
 			{
-				"buffer_size": 24643,
+				"buffer_size": 26583,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -672,6 +672,18 @@
 		"selected_items":
 		[
 			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
 				"omnishar",
 				"OmniSharpSublime: Reload Solution"
 			],
@@ -760,10 +772,6 @@
 				"Package Control: Add Repository"
 			],
 			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
 				"pac",
 				"Package Control: Install Package"
 			],
@@ -813,12 +821,11 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Projects/canicule",
-		"/D/Projects/canicule/Assets",
 		"/D/Projects/canicule/Assets/Scripts"
 	],
 	"file_history":
 	[
+		"/C/Users/Khamsou'/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/README.md",
 		"/D/Projects/canicule/Assets/Scripts/SimpleCameraController.cs",
 		"/C/Program Files (x86)/XMind/readme.txt",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -945,8 +952,7 @@
 		"/C/Users/Khamsou'/Desktop/love/sousmarin.lua",
 		"/C/Users/Khamsou'/Desktop/love/game.lua",
 		"/C/Users/Khamsou'/Desktop/love/main.lua",
-		"/D/Projects/applestore/applestore/Assets/Scripts/test.cs",
-		"/C/Users/Khamsou'/Desktop/love/main_new.lua"
+		"/D/Projects/applestore/applestore/Assets/Scripts/test.cs"
 	],
 	"find":
 	{
@@ -990,15 +996,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 108,
+						"buffer_size": 186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								52,
+								52
 							]
 						],
 						"settings":
@@ -1009,7 +1015,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1018,15 +1024,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 365,
+						"buffer_size": 352,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								365,
-								365
+								216,
+								219
 							]
 						],
 						"settings":
@@ -1034,12 +1040,8 @@
 							"oops":
 							{
 								"0,5": "Directive using non nécessaire.",
-								"211,216": "Le type 'testScript' définit déjà un membre appelé 'Start' avec les mêmes types de paramètre",
-								"233,235": "Ambiguïté entre 'testScript.rb' et 'testScript.rb'",
-								"238,250": "Impossible d'appliquer l'opérateur '<' aux opérandes de type 'groupe de méthodes' et 'Rigidbody'",
 								"26,31": "Directive using non nécessaire.",
-								"333,339": "Le type 'testScript' définit déjà un membre appelé 'Update' avec les mêmes types de paramètre",
-								"93,103": "L'espace de noms '<global namespace>' contient déjà une définition pour 'testScript'"
+								"262,263": ") attendue"
 							},
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
@@ -1075,7 +1077,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1084,7 +1086,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24643,
+						"buffer_size": 26583,
 						"regions":
 						{
 						},
