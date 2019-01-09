@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [HeaderAttribute("References")]
+    private CameraSwitch switcher;
     private Transform cameraTransform;
     private Rigidbody rb;
 
@@ -19,6 +20,13 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        switcher = (CameraSwitch)FindObjectOfType(typeof(CameraSwitch));
+
+        if (switcher == null)
+        {
+            print("Il manque un CameraSwitch sur la scène");
+        }
+
         cameraTransform = GameObject.FindWithTag("MainCamera").transform;
         rb = GetComponent<Rigidbody>();
     }
@@ -50,5 +58,14 @@ public class PlayerController : MonoBehaviour
         Vector3 localMove = transform.TransformDirection(moveAmount) * Time.fixedDeltaTime;
 
         rb.MovePosition(rb.position + localMove);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "CameraCollider")
+        {
+            Cinemachine.CinemachineVirtualCamera newCamera = other.GetComponent<Cinemachine.CinemachineVirtualCamera>();
+            switcher.ChangeCamera(newCamera);
+        }
     }
 }
