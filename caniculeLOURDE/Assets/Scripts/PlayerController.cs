@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private CameraSwitch switcher;
     private Transform cameraTransform;
     private Rigidbody rb;
+    private Animator myAnimator;
 
     [HeaderAttribute("Variables")]
     [SerializeField][Range(0f, 100f)] private float walkSpeed;
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
 
         cameraTransform = GameObject.FindWithTag("MainCamera").transform;
         rb = GetComponent<Rigidbody>();
+        myAnimator = GetComponent <Animator>();
     }
 
     // Update is called once per frame
@@ -44,13 +46,14 @@ public class PlayerController : MonoBehaviour
         cameraRight.Normalize();
         cameraFront.Normalize();
 
-
-
         // Déplacement
         Vector3 moveDirection = cameraRight * inputX + cameraFront * inputY;
         Vector3 targetMoveAmount = moveDirection.normalized * walkSpeed;
         moveAmount = Vector3.SmoothDamp(moveAmount, targetMoveAmount, ref smoothMoveVelocity, damping);
 
+        float magnitude = moveAmount.magnitude / walkSpeed;
+        myAnimator.SetFloat("speed", magnitude);
+        
     }
 
     void FixedUpdate()
