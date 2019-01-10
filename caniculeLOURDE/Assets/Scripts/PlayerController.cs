@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveAmount;
     private Vector3 smoothMoveVelocity;
     private Vector3 direction;
+    [SerializeField][Range(0f, 10f)] private float lookSpeed = 5f;
 
     // Start is called before the first frame update
     void Start()
@@ -46,23 +47,25 @@ public class PlayerController : MonoBehaviour
         cameraRight.Normalize();
         cameraFront.Normalize();
 
-        // Déplacement
+        // Rotation
         Vector3 moveDirection = cameraRight * inputX + cameraFront * inputY;
+
+        if (inputX != 0 || inputY !=0)
+        {
+            float newRot = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.AngleAxis(newRot, Vector3.up), Time.deltaTime * lookSpeed);
+        }
+
+        // Déplacement
         Vector3 targetMoveAmount = moveDirection.normalized * walkSpeed;
         moveAmount = Vector3.SmoothDamp(moveAmount, targetMoveAmount, ref smoothMoveVelocity, damping);
+        Vector3 nextPosition = rb.position + moveAmount * Time.deltaTime;        
+        rb.MovePosition(nextPosition);
 
-        float magnitude = moveAmount.magnitude / walkSpeed;
-        myAnimator.SetFloat("speed", magnitude);
+        UpdateAnimator();
         
     }
-
-    void FixedUpdate()
-    {
-        Vector3 localMove = transform.TransformDirection(moveAmount) * Time.fixedDeltaTime;
-
-        rb.MovePosition(rb.position + localMove);
-    }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "CameraCollider")
@@ -70,5 +73,11 @@ public class PlayerController : MonoBehaviour
             Cinemachine.CinemachineVirtualCamera newCamera = other.GetComponent<Cinemachine.CinemachineVirtualCamera>();
             switcher.ChangeCamera(newCamera);
         }
+    }
+
+    private void UpdateAnimator()
+    {
+        float magnitude = moveAmount.magnitude / walkSpeed;
+        myAnimator.SetFloat("speed", magnitude);
     }
 }

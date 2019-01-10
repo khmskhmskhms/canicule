@@ -23,7 +23,6 @@ public class CameraSwitch : MonoBehaviour
         {
             if (cameraList[i] == newCamera)
             {
-                print("nouvelle caméra : "+i);
                 cameraList[i].MoveToTopOfPrioritySubqueue();
                 currentCamera = i;
             }
